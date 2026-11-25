@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Legal Consulting Senegal - Création d'entreprise à distance</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Georgia,serif;background:#0A1628;color:white}
+a{text-decoration:none}
+header{background:#0A1628;padding:16px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #1E2F4A;position:sticky;top:0;z-index:10}
+.logo{line-height:1}
+.logo b{font-size:26px;letter-spacing:2px;font-family:Arial}
+.logo span{font-size:11px;letter-spacing:4px;color:#D4B45A;font-family:Arial}
+.btn-or{background:#E8C873;color:#0A1628;padding:12px 16px;font-weight:bold;font-family:Arial;font-size:14px;border-radius:3px;text-align:center}
+.hero{padding:30px 20px;text-align:center}
+.hero small{letter-spacing:4px;color:#D4B45A;font-family:Arial;font-size:13px}
+.hero h1{font-size:42px;line-height:1.1;margin:18px 0}
+.hero h1 i{color:#D4B45A}
+.hero p{font-family:Arial;color:#B8C0D0;line-height:1.6;font-size:16px}
+.btn{font-family:Arial;display:block;margin:14px auto;padding:15px;font-weight:bold;border-radius:3px;text-align:center;max-width:320px}
+.btn-plein{background:#E8C873;color:#0A1628}
+.btn-vide{border:1px solid #3A4A65;color:white;background:transparent}
+.badges{font-family:Arial;display:flex;flex-wrap:wrap;justify-content:center;gap:10px 25px;color:#C8D0DE;font-size:14px;padding:20px;border-top:1px solid #1E2F4A;margin-top:25px}
+.section{padding:40px 20px}
+.section h2{font-size:34px;text-align:center;line-height:1.2}
+.section.sous{font-family:Arial;color:#9AA7BB;text-align:center;margin:12px 0 20px;line-height:1.5}
+.barre{width:60px;height:3px;background:#D4B45A;margin:15px auto}
+.etape{border-left:3px solid #D4B45A;padding-left:18px;margin:28px 0}
+.etape b{font-size:38px;color:#D4B45A}
+.etape h3{font-size:26px;margin:2px 0 6px}
+.etape p{font-family:Arial;color:#9AA7BB;line-height:1.5;font-size:15px}
+.carte{background:#0F1E38;border:1px solid #1E2F4A;border-top:2px solid #D4B45A;padding:26px;margin:18px 0}
+.carte.ico{font-size:30px}
+.carte h3{font-size:25px;margin:14px 0 10px;line-height:1.2}
+.carte p{font-family:Arial;color:#9AA7BB;line-height:1.6;font-size:15px}
+.avantage{display:flex;gap:12px;margin:22px 0}
+.avantage span{color:#D4B45A}
+.avantage h4{font-family:Arial;font-size:17px}
+.avantage p{font-family:Arial;color:#9AA7BB;line-height:1.5;font-size:14px;margin-top:4px}
+.contact-info{font-family:Arial;color:#C8D0DE;line-height:2.1;font-size:16px;margin:20px 0}
+.contact-info b{color:white}
+.form{background:#0F1E38;border:1px solid #1E2F4A;border-top:3px solid #D4B45A;padding:25px;margin-top:25px}
+.form label{font-family:Arial;font-size:15px;color:#E5EAF2;display:block;margin:18px 0 8px}
+.form input,.form select,.form textarea{width:100%;padding:14px;background:#071020;border:1px solid #1E2F4A;color:white;font-size:16px;font-family:Arial;border-radius:3px}
+.form textarea{height:100px;resize:none}
+.form button{width:100%;background:#E8C873;color:#0A1628;border:none;padding:15px;font-weight:bold;font-size:16px;font-family:Arial;border-radius:3px;margin-top:22px}
+.conf{font-family:Arial;text-align:center;color:#9AA7BB;font-size:14px;margin-top:12px}
+footer{background:#071020;text-align:center;padding:25px;font-family:Arial;color:#9AA7BB;font-size:14px;line-height:1.6}
+footer b{color:white;font-family:Georgia;letter-spacing:2px;font-size:18px}
+/* --- LOGO SEUL EN HAUT, SANS LES INFOS --- */
+.banniere{background:#0A1628;border:2px solid #D4B45A;border-radius:12px;padding:22px 14px;margin-bottom:20px;text-align:center}
+.banniere-shield{width:110px;margin:0 auto 12px;background:#0A1628;border:3px solid #D4B45A;border-radius:50% 50% 50% 50% / 20% 20% 60% 60%;padding:12px 5px 18px}
+.banniere-shield .balance{font-size:38px;line-height:1}
+.banniere-shield .lcs{font-family:Arial;font-size:42px;font-weight:bold;color:#D4B45A;letter-spacing:2px;line-height:1}
+.banniere-shield .sen{font-family:Arial;font-size:10px;color:#D4B45A}
+.banniere h1{font-size:30px !important;color:#D4B45A !important;margin:0 !important;line-height:1.1 !important;letter-spacing:1px}
+.banniere h1 span{display:block;color:white;font-size:22px;letter-spacing:8px;margin-top:4px}
+.pill{border:2px solid #D4B45A;border-radius:25px;padding:8px 10px;font-family:Arial;font-size:13px;letter-spacing:1px;color:#D4B45A;margin:14px 0;font-weight:bold}
+.banniere-bas{border:2px solid #D4B45A;border-radius:25px;padding:8px 10px;font-family:Arial;font-size:12px;letter-spacing:1px;color:#D4B45A;margin-top:14px;font-weight:bold}
+</style>
+</head>
+<body>
+
+<header>
+<div class="logo"><b>LEGAL<br>CONSULTING</b><br><span>CONSEIL & ASSISTANCE</span></div>
+<a class="btn-or" href="#contact">Démarrer<br>mon projet</a>
+</header>
+
+<div class="hero">
+<div class="banniere">
+  <div class="banniere-shield">
+    <div class="balance">⚖️</div>
+    <div class="lcs">LCS</div>
+    <div class="sen">🌿 SENEGAL 🌿</div>
+  </div>
+  <h1>LEGAL CONSULTING <span>SENEGAL</span></h1>
+  <div class="pill">CONSEIL &nbsp;•&nbsp; ASSISTANCE &nbsp;•&nbsp; CONFORMITÉ</div>
+  <div class="banniere-bas">L'EXPERTISE AU SERVICE DE VOS AMBITIONS</div>
+</div>
+<small>CONSEIL • ASSISTANCE • CONFORMITÉ</small>
+<h1>Créez votre entreprise <i>sans quitter</i> votre domicile.</h1>
+<p>L'expertise au service de vos ambitions. Conseil juridique, formalités, statuts, domiciliation: nous prenons en charge chaque étape.</p>
+<a class="btn btn-plein" href="#contact">Obtenir mon devis gratuit</a>
+<a class="btn btn-vide" href="#prestations">Voir nos prestations</a>
+<div class="badges"><span>✦ 100 % en ligne</span><span>✦ Dossier suivi de A à Z</span><span>✦ Confidentialité garantie</span><span>✦ Réglementation en vigueur respectée</span></div>
+</div>
+
+<div class="section">
+<h2>Votre entreprise en quatre étapes</h2>
+<p class="sous">Un parcours simple, entièrement à distance.</p>
+<div class="barre"></div>
+<div class="etape"><b>1</b><h3>Échange</h3><p>Vous nous présentez votre projet par téléphone, WhatsApp ou e-mail.</p></div>
+<div class="etape"><b>2</b><h3>Conseil</h3><p>Nous choisissons avec vous la structure juridique et fiscale adaptée.</p></div>
+<div class="etape"><b>3</b><h3>Formalités</h3><p>Rédaction des statuts, dépôt et immatriculation: nous nous occupons de tout.</p></div>
+<div class="etape"><b>4</b><h3>Lancement</h3><p>Vous recevez vos documents et nous restons à vos côtés pour la suite.</p></div>
+</div>
+
+<div class="section" id="prestations" style="background:#122642">
+<h2>Nos domaines d'intervention</h2>
+<p class="sous">Conseil, assistance juridique et administrative pour entrepreneurs, particuliers et entreprises.</p>
+<div class="barre"></div>
+<div class="carte"><div class="ico">🏛️</div><h3>Création et immatriculation</h3><p>Conseil et assistance à la création, à la constitution et à l'immatriculation des entreprises et sociétés.</p></div>
+<div class="carte"><div class="ico">📋</div><h3>Formalités administratives, juridiques et fiscales</h3><p>Un accompagnement complet dans toutes vos démarches auprès des administrations.</p></div>
+<div class="carte"><div class="ico">🖊️</div><h3>Rédaction d'actes</h3><p>Statuts, contrats, conventions et actes sous seing privé rédigés avec rigueur.</p></div>
+<div class="carte"><div class="ico">📈</div><h3>Business plans et investissement</h3><p>Business plans, études de faisabilité et projets d'investissement solides et crédibles.</p></div>
+<div class="carte"><div class="ico">🗂️</div><h3>Gestion de l'entreprise</h3><p>Assistance à la gestion administrative, commerciale et organisationnelle.</p></div>
+<div class="carte"><div class="ico">📍</div><h3>Domiciliation</h3><p>Domiciliation commerciale et administrative de votre entreprise.</p></div>
+<div class="carte"><div class="ico">🤝</div><h3>Financement et partenaires</h3><p>Accompagnement dans vos démarches de financement et la recherche de partenaires.</p></div>
+<div class="carte"><div class="ico">🔄</div><h3>Modification, restructuration, dissolution</h3><p>Assistance pour les formalités de modification, de restructuration, de dissolution et de liquidation des sociétés.</p></div>
+<div class="carte"><div class="ico">⚖️</div><h3>Fiscalité et gestion sociale</h3><p>Conseil et orientation, en collaboration avec les professionnels habilités.</p></div>
+<div class="carte"><div class="ico">✦</div><h3>Autres prestations</h3><p>Toute prestation de conseil et d'assistance liée à ces activités, dans le respect de la réglementation en vigueur.</p></div>
+</div>
+
+<div class="section">
+<h2>Un cabinet à votre <i style="color:#D4B45A">service</i>, où que vous soyez.</h2>
+<p class="sous" style="text-align:left">LEGAL CONSULTING SENEGAL est un cabinet spécialisé dans le conseil, l'assistance juridique et administrative, et l'accompagnement des entrepreneurs, des particuliers et des entreprises.</p>
+<div class="avantage"><span>✦</span><div><h4>Tout à distance</h4><p>Aucun déplacement: vos documents circulent en ligne.</p></div></div>
+<div class="avantage"><span>✦</span><div><h4>Un interlocuteur dédié</h4><p>Vous savez toujours où en est votre dossier.</p></div></div>
+<div class="avantage"><span>✦</span><div><h4>Tarifs clairs</h4><p>Un devis vous est remis avant tout engagement.</p></div></div>
+<div class="avantage"><span>✦</span><div><h4>Un réseau de professionnels</h4><p>Nous collaborons avec les experts habilités quand votre dossier l'exige.</p></div></div>
+</div>
+
+<div class="section" id="contact">
+<h2 style="text-align:left">Parlons de votre projet</h2>
+<p style="font-family:Arial;color:#9AA7BB;line-height:1.6;margin-top:10px">Décrivez-nous votre idée: nous vous répondons rapidement avec une proposition adaptée.</p>
+<div class="contact-info">
+📍 <b>Soprim extension près du marché Diamalaye case bi</b><br>
+📞 <b>+221 77 309 27 81</b><br>
+✉️ <b>contactlegalconsultingsenegal@gmail.com</b>
+</div>
+<div class="form">
+<label>Nom complet</label>
+<input id="nom" type="text" placeholder="Votre nom complet">
+<label>Téléphone</label>
+<input id="tel" type="tel" placeholder="Votre téléphone">
+<label>Votre besoin</label>
+<select id="besoin">
+<option>Création d'entreprise</option>
+<option>Formalités administratives</option>
+<option>Rédaction d'actes</option>
+<option>Business plan</option>
+<option>Domiciliation</option>
+<option>Financement</option>
+<option>Modification / Dissolution</option>
+<option>Autre demande</option>
+</select>
+<label>Message (facultatif)</label>
+<textarea id="msg" placeholder="Parlez-nous de votre projet..."></textarea>
+<button onclick="envoyerWhatsApp()">Envoyer via WhatsApp</button>
+<div class="conf">Confidentiel – sans engagement</div>
+</div>
+</div>
+
+<footer><b>LEGAL CONSULTING SENEGAL</b><br>Conseil • Assistance • Conformité<br>Soprim extension près du marché Diamalaye case bi<br>L'expertise au service de vos ambitions · © 2026 Tous droits réservés</footer>
+
+<script>
+function envoyerWhatsApp(){
+ var nom = document.getElementById('nom').value;
+ var tel = document.getElementById('tel').value;
+ var besoin = document.getElementById('besoin').value;
+ var msg = document.getElementById('msg').value;
+ var texte = "Bonjour Legal Consulting Senegal,%0AJe suis " + nom + ".%0A📞 Mon téléphone: " + tel + "%0A📌 Mon besoin: " + besoin + "%0A💬 Message: " + msg;
+ window.open("https://wa.me/221773092781?text=" + texte, "_blank");
+}
+</script>
+
+</body>
+</html>
